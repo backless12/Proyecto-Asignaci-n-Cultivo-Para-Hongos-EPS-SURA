@@ -1,0 +1,12 @@
+body {
+    background-image: url(/assets/img/lading_logo.jpg_large);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+}

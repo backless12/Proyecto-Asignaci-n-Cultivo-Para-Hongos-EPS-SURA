@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cita Cultivo Para Hongos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/src/styles.css">
+</head>
+<body>
+    <div class="container p-5 mt-4 mb-6 w-50">
+        <h1 class="text-center">Citas Cultivo para Hongos</h1>
+        <h1 class="text-center text-primary">EPS SURA</h1>
+        <form>
+            <div class="form-group mt-3">
+                <label>Elige la Sede</label>
+                <select class="form-control" id="sede" name="sede">
+                    <option value="sede1">Ayudas Diagnósticas IPS SURA Centro</option>
+                    <option value="sede2">Ayudas Diagnósticas Comfama San Ignacio</option>
+                    <option value="sede2">Ayudas Diagnósticas Comfama La Central</option>
+                    <option value="sede2">Ayudas Diagnósticas Tranvía Plaza</option>
+                </select>
+            </div>
+            <div class="form-group mt-3">
+                <label for="fecha">Elige la Fecha (Lunes a Viernes)</label>
+                <input type="date" class="form-control" id="fecha" name="fecha">
+            </div>
+            <div class="form-group mt-3">
+                <label>Elige la Hora (Entre 6:00 - 12:00 Horas)</label>
+                <input type="time" class="form-control" id="hora" name="hora">
+            </div>
+            <div class="form-group mt-3">
+                <label>Elige el Tipo de Exámen:</label>
+                <select class="form-control" id="tipoExamen" name="tipoExamen">
+                    <option value="examen1">Sólo KOH</option>
+                    <option value="examen2">Sólo Cultivo Para Hongos</option>
+                    <option value="examen2">Cultivo Para Hongos y KOH</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary mt-5 justify-content-center">Enviar</button>
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
